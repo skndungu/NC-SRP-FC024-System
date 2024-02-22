@@ -6,6 +6,9 @@ Preferences preferences;
 
 void setup()
 {
+  if (IS_DEBUG_MODE)
+    Serial.begin(115200);
+
   setupTemp();
   setupVoltage();
   setupLeds();

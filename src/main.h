@@ -8,6 +8,8 @@
 #include "relay.h"
 #include "leds.h"
 
+#define IS_DEBUG_MODE true
+
 #define VOLT_SENSE_1_PIN 33
 #define VOLT_SENSE_2_PIN 25
 #define VOLT_SENSE_3_PIN 26
