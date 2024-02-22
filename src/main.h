@@ -21,10 +21,7 @@
 
 #define RELAY_TRIGGER_PIN 5
 
-#define SDA 21
-#define SCL 22
-
-#define DEFAULT_TEMPERATURE 30.0
+#define DEFAULT_TEMPERATURE 45.0
 #define TEMPERATURE_OFFSET 1.0
 
 extern Preferences preferences;
